@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = "Re-sign iOS Apps (.ipa files)"
   gem.homepage      = ""
 
-  gem.add_dependency "commander", "~> 4.1.2"
+  gem.add_dependency "commander", "~> 4.2"
 
   gem.files         = `git ls-files`.split("\n")
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
